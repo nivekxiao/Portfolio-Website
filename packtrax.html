@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PackTrax</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>PackTrax</h1>
-    <img src="packtrax.png" alt="PackTrax Logo">
+    <nav class="topnav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">← Back to Home</a>
+      </div>
+    </nav>
+    
+    <div class="container">
+<h1>PackTrax</h1>
+    <img loading="lazy" src="packtrax.png" alt="PackTrax Logo">
     <h3>Project Dates: April 2024 - May 2024</h3>
 
     <h3>Goals:</h3>
@@ -33,12 +44,13 @@
     </ul>
 
     <h2>Gallery</h2>
-    <video width="320" height="240" controls><source src="packtrax2.mp4" type="video/mp4">PackTrax Submission Video</video>
+    <video preload="metadata" width="320" height="240" controls><source src="packtrax2.mp4" type="video/mp4">PackTrax Submission Video</video>
 
 
     <a href="index.html">
         <h5>Back</h5>
     </a>
+    </div>
 </body>
 
 </html>

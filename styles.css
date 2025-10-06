@@ -212,20 +212,3 @@ tr:hover td {
 .project-card img{ max-width: 100%; margin: 0 0 .75rem; }
 .project-card p{ margin: 0; font-weight:600; }
 .project-card a{ text-decoration: none; }
-
-/* --- Footer --- */
-.site-footer{
-  margin-top: 3rem;
-  border-top: 1px solid rgba(255,255,255,.08);
-  padding: 1.2rem 0;
-  background: rgba(0,0,0,0.2);
-}
-.footer-inner{
-  max-width: var(--maxw);
-  margin: 0 auto;
-  padding: 0 20px;
-  font-size: 0.95rem;
-  color: var(--muted);
-}
-.footer-inner a{ color: var(--accent); text-decoration:none; }
-.footer-inner a:hover{ text-decoration:underline; }

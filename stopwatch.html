@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Stopwatch</h1>
-    <img src="stopwatch.jpeg" alt="Stopwatch Front View">
+    <nav class="topnav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">← Back to Home</a>
+      </div>
+    </nav>
+    
+    <div class="container">
+<h1>Stopwatch</h1>
+    <img loading="lazy" src="stopwatch.jpeg" alt="Stopwatch Front View">
     <h3>Project Dates: November 2023 - January 2024</h3>
     <h3>Goals:</h3>
     <ul>
@@ -30,15 +41,16 @@
     </a>
 
     <h2>Gallery</h2>
-    <img src="stopwatch2.jpeg" alt="Stopwatch Breadboard">
+    <img loading="lazy" src="stopwatch2.jpeg" alt="Stopwatch Breadboard">
     <br>
-    <img src="stopwatch3.jpeg" alt="Stopwatch Back Pieces">
+    <img loading="lazy" src="stopwatch3.jpeg" alt="Stopwatch Back Pieces">
     <br>
-    <img src="stopwatch4.jpeg" alt="Stopwatch Front Pieces">
+    <img loading="lazy" src="stopwatch4.jpeg" alt="Stopwatch Front Pieces">
     <br>
-    <video width="320" height="240" controls><source src="stopwatch5.mp4" type="video/mp4">Stopwatch Functioning</video>
+    <video preload="metadata" width="320" height="240" controls><source src="stopwatch5.mp4" type="video/mp4">Stopwatch Functioning</video>
     <br>
-    <video width="320" height="240" controls><source src="stopwatch6.mp4" type="video/mp4">Stopwatch Taking Apart</video>
+    <video preload="metadata" width="320" height="240" controls><source src="stopwatch6.mp4" type="video/mp4">Stopwatch Taking Apart</video>
+    </div>
 </body>
 
 </html>
